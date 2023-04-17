@@ -60,3 +60,5 @@ function solution(price, money, count) {
     return answer - money;
   }
 }
+
+//복습 했습니다.
