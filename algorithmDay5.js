@@ -55,10 +55,10 @@ function solution(price, money, count) {
   if (answer - money < 0) {
     //4번째 테스트에서 오류가 떴었다. 금액이 부족하지 않으면 0을 리턴해라
     // 그부분을 지나쳤다.
-    return (answer = 0);
+    return (answer = 1);
   } else {
     return answer - money;
   }
 }
 
-//복습 했습니다.
+//복습 했습니다. ㅎㅎ
